@@ -1,30 +1,30 @@
 const phases = [
   {
-    title: 'Discover & Align',
+    title: 'Listen & Learn',
     summary:
-      'Stakeholder interviews, tech audits, and opportunity mapping to align on impact, constraints, and success metrics.'
+      'Immersive founder interviews, audience pulse checks, and cultural audits to uncover the soul and ambition of the brand.'
   },
   {
-    title: 'Design & Prototype',
+    title: 'Shape & Prototype',
     summary:
-      'Rapidly iterate architecture diagrams, UX flows, and proof-of-concepts to de-risk assumptions before full investment.'
+      'Translate insights into mood narratives, brand architecture, and low-fidelity product journeys to pressure-test the story.'
   },
   {
-    title: 'Build & Optimize',
+    title: 'Launch & Steward',
     summary:
-      'Incremental delivery with continuous integration, observability, and performance tuning baked into every release.'
+      'Build final systems, orchestrate production partners, and embed with your team to launch, measure, and iterate together.'
   }
 ];
 
 export default function Process() {
   return (
-    <section id="process" className="section">
+    <section id="process" className="section section--process">
       <div className="section__header">
-        <span className="eyebrow">Engagement model</span>
-        <h2>Transparent delivery, measurable outcomes</h2>
+        <span className="eyebrow">Approach</span>
+        <h2>A collaborative rhythm that keeps vision and detail in sync</h2>
         <p>
-          We operate as an extension of your engineering org, sharing velocity metrics, burn-up charts, and deployment health at
-          every sprint.
+          We operate like an in-house team—co-creating with your stakeholders, documenting every decision, and always leaving
+          you with systems your team can steward with ease.
         </p>
       </div>
       <ol className="timeline">

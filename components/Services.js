@@ -1,21 +1,21 @@
 const services = [
   {
-    title: 'Product Strategy & Discovery',
+    title: 'Brand Architecture',
     description:
-      'Align stakeholders, validate market fit, and design a north star architecture with collaborative workshops and rapid prototyping.',
-    icon: '🧭'
+      'Name development, messaging ladders, and visual territories that balance intuition with commercial clarity.',
+    icon: '✷'
   },
   {
-    title: 'Full-Stack Platform Engineering',
+    title: 'Digital Experience Design',
     description:
-      'Build secure, observable, and high-performing web platforms leveraging TypeScript, React, Node.js, and modern cloud services.',
-    icon: '⚙️'
+      'Website and product interfaces that translate your ethos into tactile, conversion-ready user journeys.',
+    icon: '⌘'
   },
   {
-    title: 'DevOps & Cloud Modernization',
+    title: 'Launch Campaigns',
     description:
-      'Transform delivery pipelines with infrastructure-as-code, automated testing, and Kubernetes/Serverless deployments.',
-    icon: '☁️'
+      'Art direction, film, and campaign systems that keep the momentum from teaser to post-launch nurture.',
+    icon: '✺'
   }
 ];
 
@@ -23,10 +23,11 @@ export default function Services() {
   return (
     <section id="services" className="section section--surface">
       <div className="section__header">
-        <span className="eyebrow">Solutions</span>
-        <h2>Consulting that ships quality software faster</h2>
+        <span className="eyebrow">Capabilities</span>
+        <h2>Everything you need to open your brand&apos;s next chapter</h2>
         <p>
-          From technical roadmaps to ongoing delivery, DEVLOPMENT COPNSITLACYU embeds with your team to accelerate outcomes.
+          Our team blends strategy, copy, design, and production. Each engagement is bespoke yet anchored by proven rituals that
+          create emotional resonance and measurable traction.
         </p>
       </div>
       <div className="cards">
