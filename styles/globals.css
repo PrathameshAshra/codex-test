@@ -1,12 +1,14 @@
 :root {
-  color-scheme: light dark;
-  --color-primary: #0d47a1;
-  --color-secondary: #ffb300;
-  --color-background: #0a192f;
-  --color-surface: #112240;
-  --color-text: #e6f1ff;
-  --color-muted: rgba(230, 241, 255, 0.72);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color-scheme: only light;
+  --color-background: #f9f5f1;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f2eae2;
+  --color-text: #1f1a17;
+  --color-muted: rgba(31, 26, 23, 0.6);
+  --color-accent: #f5724d;
+  --color-accent-soft: rgba(245, 114, 77, 0.16);
+  --color-ink-subtle: rgba(31, 26, 23, 0.08);
+  font-family: 'Neue Haas Grotesk Text', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 * {
@@ -16,7 +18,7 @@
 }
 
 body {
-  background: linear-gradient(160deg, var(--color-background) 0%, #020c1b 100%);
+  background: var(--color-background);
   color: var(--color-text);
   min-height: 100vh;
 }
@@ -26,12 +28,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 section {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 @media (max-width: 768px) {
   section {
-    padding: 3rem 0;
+    padding: 3.5rem 0;
   }
 }

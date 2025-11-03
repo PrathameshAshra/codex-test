@@ -3,27 +3,28 @@ export default function Contact() {
     <section id="contact" className="section section--accent">
       <div className="contact">
         <div>
-          <span className="eyebrow">Start the conversation</span>
-          <h2>Let&apos;s architect your next chapter</h2>
+          <span className="eyebrow">Start a conversation</span>
+          <h2>Your next chapter starts with a shared Google Doc and a cup of tea</h2>
           <p>
-            Share your goals and constraints—we&apos;ll respond within two business days with a curated agenda for our kickoff call.
+            Tell us about your audience, timeline, and the feeling you want people to leave with. We&apos;ll reply within a day
+            to schedule a chemistry call and craft a path forward.
           </p>
         </div>
         <form className="contact__form">
           <label>
             Name
-            <input type="text" name="name" placeholder="Ada Lovelace" required />
+            <input type="text" name="name" placeholder="Olaolu Slawn" required />
           </label>
           <label>
-            Work email
-            <input type="email" name="email" placeholder="you@company.com" required />
+            Email
+            <input type="email" name="email" placeholder="you@studio.com" required />
           </label>
           <label>
-            How can we help?
-            <textarea name="message" rows="4" placeholder="Tell us about your product vision" required />
+            What are you building?
+            <textarea name="message" rows="4" placeholder="Share what you&apos;re launching" required />
           </label>
           <button type="submit" className="button button--primary">
-            Request consultation
+            Send inquiry
           </button>
         </form>
       </div>
